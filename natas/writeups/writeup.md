@@ -1,11 +1,11 @@
 # NATAS LEVEL WRITEUPS
 
 * You can access those level here: http://overthewire.org/wargames/natas/
-* All usernames are: natasXX [^1]
-* Remember that all password are stored in /etc/natas_webpass/natasXX [^1]
-* We will use Firefox and Python  
+* All usernames are: natasXX [^1].
+* Remember that all password are stored in /etc/natas_webpass/natasXX [^1].
+* We will use Firefox and Python.
 
-[^1]: XX is the current level
+[^1]: XX is the current level.  
 
 Note: Password may change, but the way to get them should be right.
 
