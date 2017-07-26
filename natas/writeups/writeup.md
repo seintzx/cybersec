@@ -5,6 +5,7 @@
 * Remember that all password are stored in /etc/natas_webpass/natasXX [^1]
 * We will use Firefox and Python  
 
+[^1]: XX is the current level
 
 Note: Password may change, but the way to get them should be right.
 
@@ -409,8 +410,3 @@ When you return you should see this:
 ### Level 18
 
 TODO and cooming soon (but not so soon).
-
-
-
-
-[^1]: XX is the current level
