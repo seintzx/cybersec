@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/python3
 
 # Given a square matrix of size NxN, calculate the absolute difference between the sums of its diagonals.
 
