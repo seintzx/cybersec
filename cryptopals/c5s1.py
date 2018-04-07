@@ -1,6 +1,8 @@
-import binascii
+#!/usr/bin/python3
 
-plaintext = "Burning 'em, if you ain't quick and nimble\nI go crazy when I hear a cymbal"
+# import binascii
+
+plain = "Burning 'em, if you ain't quick and nimble\nI go crazy when I hear a cymbal"
 key = "ICE"
 
 def repkeyxor(s, k):
@@ -14,6 +16,5 @@ def repkeyxor(s, k):
         i += 1
     return ciphertext
 
-cipher = repkeyxor(plaintext, key)
-
-print cipher
+if __name__ == "__main__":
+    print(repkeyxor(plain, key))

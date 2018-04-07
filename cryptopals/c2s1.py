@@ -10,6 +10,7 @@ def hexor(s1, s2):
     h1 = int(s1, 16)
     h2 = int(s2, 16)
     res = hex(h1 ^ h2)
+    print res
     return res[2:-1]
 
 #MAIN
