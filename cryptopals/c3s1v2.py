@@ -55,10 +55,11 @@ def crack_xor():
         return score
 
     # Complete ascii 0-255, 32 = Space, 122 = z
-    out = max( [(i, strxor_c(cipherHex, i)) for i in range(0, 255)], key=fitness )
+    out = max(
+        [(i, strxor_c(cipherHex, i)) for i in range(0, 255)], key=fitness)
 
     print('Key: {}\nPlain Text: {}'.format(out[0], out[1].decode()))
-    
+
     # # Explaination of what is 'out' up above
     #
     # for i in range(0,255):
@@ -66,8 +67,9 @@ def crack_xor():
     #     a = fitness(strxor_c(cipherHex, i))
     #     if a > maxx:
     #         maxx = a
-    
+
     assert (strxor_c(out[1], ord('X')) == cipherHex)
+
 
 if __name__ == '__main__':
     crack_xor()

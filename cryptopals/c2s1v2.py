@@ -3,6 +3,7 @@
 from binascii import unhexlify
 from Crypto.Util.strxor import strxor
 
+
 # Write a function that takes two equal-length buffers and
 # produces their XOR combination.
 def fixed_xor():

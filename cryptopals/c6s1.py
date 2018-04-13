@@ -2,6 +2,7 @@
 
 import base64
 
+
 # This function compute the Hamming distance between two strings
 def hamdist(s1, s2):
     d = 0
@@ -16,21 +17,24 @@ def hamdist(s1, s2):
             c2 >>= 1
     return d
 
+
 def findkey(b64_s):
     key_dict = {}
     low = 9999
     previous = 0
     for size in range(2, 40):
-        ham1 = b64_s[previous : size + 1]
-        ham2 = b64_s[size + 1 : size * 2 + 1]
-        low = hamdist(ham1, ham2)/size
-        key_dict = {low : size}
+        ham1 = b64_s[previous:size + 1]
+        ham2 = b64_s[size + 1:size * 2 + 1]
+        low = hamdist(ham1, ham2) / size
+        key_dict = {low: size}
         previous = size
-    return(key_dict[low])
+    return (key_dict[low])
+
 
 def break_xor(b64_s):
-    result = '' 
+    result = ''
     return result
+
 
 # Read file
 b64_str = ''
