@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/bin/env python
 # Given a string S ,print its even-indexed and odd-indexed characters as space-separated strings on a single line.
 
 import sys
