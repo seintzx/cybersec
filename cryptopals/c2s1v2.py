@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python
 
 from binascii import unhexlify
 from Crypto.Util.strxor import strxor
