@@ -1,2 +1,3 @@
-# 10-Days-of-Javascript
-My Code Solutions to HackerRank 10 Days of Javascript.
+# 10 days of javascript
+
+My code solutions to hackerrank 10 days of javascript.
