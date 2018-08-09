@@ -198,7 +198,7 @@ plaintext and ciphertext we can extrapolate the key:
 ```
 
 ```
-php natas_11.php
+php natas11-decrypt.php
 
 qw8Jqw8Jqw8Jqw8Jqw8Jqw8Jqw8Jqw8Jqw8Jqw8Jq
 ```
@@ -226,7 +226,7 @@ will show us the password, and I've done it with this script:
 ```
 This is our new string:
 ```
-php natas_11-2.php
+php natas11-solution.php
 
 ClVLIh4ASCsCBE8lAxMacFMOXTlTWxooFhRXJh4FGnBTVF4sFxFeLFMK
 ```
