@@ -10,14 +10,14 @@
 Note: Password may change, but the way to get them should be right.
 
 
-### Level 0
+## Level 0
 
 Open the Page Inspector (right-click anywhere in the page and then Inspect
 Element) you'll find the password as a comment:
 
 > <!--The password for natas1 is gtVrDuiDfck831PqWsLEZy5gyDz1clto -->
 
-### Level 1
+## Level 1
 
 It's the same as level 0 but you can't right-click so you have to find another
 way to open inspecto. You can do it in two ways:
@@ -29,7 +29,7 @@ Again you'll find the password in the comment:
 
 > <!--The password for natas2 is ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi -->
 
-### Level 2
+## Level 2
 
 When you don't know what to do, open the Inspector and see what it has to show.
 Now we see that there's an image in some folder, we also see that the image is
@@ -44,7 +44,7 @@ inside.
 > Here's your password for the next level:
 > natas3:sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14
 
-### Level 3
+## Level 3
 
 For this level we need some knowledge of how websites works, you shold know what
 a robots.txt file is, if you don't then google it and come back.
@@ -56,7 +56,7 @@ s3cr3t folder, go into it and look what it keeps from us Oh, another user.txt.
 > Here's your password for the next level:
 > natas4:Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ
 
-### Level 4
+## Level 4
 
 For this level we will use "tamper data" and play with some packets.[^2]
 
@@ -71,7 +71,7 @@ will see the password
 
 >  Access granted. The password for natas5 is iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq
 
-### Level 5
+## Level 5
 
 For this level we will use "Cookie Manager", but you can use whatever you want
 that let you play with cookie.
@@ -82,7 +82,7 @@ cookie for natas5, click on "Edit" and change the field of "Content" from 0 to
 
 >  Access granted. The password for natas6 is aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1
 
-### Level 6
+## Level 6
 
 For this level we will have to find some secret input to validate and get the
 password for next level. As we see the source code we can find a PHP script, and
@@ -97,7 +97,7 @@ Here's your secret, now feed it to the textbox and you will have your password.
 
 > Access granted. The password for natas7 is 7z3hEENjQtflzgnT29q7wAvMNfZdh0i9
 
-### Level 7
+## Level 7
 
 In this level we see that they use php pages, always remember where password are
 stored (/etc/natas_webpass/natasXX). If you inspect the page (and you always
@@ -107,7 +107,7 @@ We could try to put it as value of the variable `page` in the URL.
 
 > Here's your password:  DBfUBfqQG69KvJvJ1iAbMoIpwSNQ9bWe
 
-### Level 8
+## Level 8
 
 Now things starts to get interesting, but we need some cryptography knowledge.
 
@@ -125,7 +125,7 @@ you're good.
 
 > Access granted. The password for natas9 is W0mMhUcRRnG8dcghE4qvk3JA9lGt8nDl
 
-### Level 9
+## Level 9
 
 In this level we need to play with a little script that works as a serch engine
 for a txt file.
@@ -143,7 +143,7 @@ This should do the trick.
 
 > Here's your password: nOpp1igQAkUzaI1GUUjzn1bFVj7xCNzu
 
-### Level 10
+## Level 10
 
 I'll give you an hint, this level is like the previous one.
 
@@ -160,7 +160,7 @@ Here's your solution.
 
 > Here's your password: U82q5TCMMQ9xuFoI3dYX61s7OZD9JKoK
 
-### Level 11
+## Level 11
 
 When we first see the level, it tell us everything, we need to decrypt something
 and work with cookie
@@ -212,9 +212,7 @@ will show us the password, and I've done it with this script:
         $text = json_encode(array( "showpassword"=>"yes", "bgcolor"=>"#ffffff"));
         $key = "qw8J";
         $outText = '';
-
         // Iterate through each character
-
         for($i=0;$i<strlen($text);$i++)
         {
             $outText .= $text[$i] ^ $key[$i % strlen($key)];
@@ -235,7 +233,7 @@ Now put it in the cookie and you'll get the password
 
 > The password for natas12 is EDXp0pS26wLKHZy1rDBPUZk0RKfLGIR3
 
-### Level 12
+## Level 12
 
 This level is pretty interesting, and a bit tricky because we need to use
 BurpSuite to intercept our request, but we'll talk about that later.
@@ -262,7 +260,7 @@ Now we just have to open the file and we'll se the password:
 
 > Here's your password for the next level: jmLTY0qiPZBbaKc9341cqPQZBJv7MQbY
 
-### Level 13
+## Level 13
 
 This level is like the previous one, but this time they check the signature byte
 of the file.
@@ -282,7 +280,7 @@ Now we open the file and we'll get the password:
 
 > Here's your password for the next level: Lg96M10TdfaPyVBkJdjymbllQ5L6qdl1
 
-### Level 14
+## Level 14
 
 As we open the level we see a login form. We'll take a look at the source code
 as always and we will notice that they do some query to a SQL database.
@@ -294,7 +292,7 @@ the awesome `test"OR "1"="1` in both input and we logon.
 
 > Successful login! The password for natas15 is AwWj0w5cvxrZiONgZ9J5stNVkmxdk39J
 
-### Level 15
+## Level 15
 
 As we logon we see an input box and a button, they say that we can check if an
 user exist.
@@ -331,7 +329,7 @@ Let the script run and at the end you'll get the password:
 
 > Password = WaIHEacj63wnNIBROHeqi3p9t0m5nhmh
 
-### Level 16
+## Level 16
 
 For this level we'll use the same tools as the one before: python and
 bruteforce.
@@ -378,7 +376,7 @@ Let it run for a bit and at the end you'll ahev the password:
 
 > 8Ps3H0GWbn5rd9S7GmAdgQNdkhPkq9cw Woohoo!
 
-### Level 17
+## Level 17
 
 This level will be a bit tricky. It is like level 15 so we'll use the same
 tecniques, but this time we will not see the output so we'll do a `blind`
@@ -417,6 +415,6 @@ whatelse. When you return you should see this:
 
 > Final: xvKIqDjy4OPv7wCRgDlmj0pFsCsDjhdP
 
-### Level 18
+## Level 18
 
 TODO and cooming soon (but not so soon).

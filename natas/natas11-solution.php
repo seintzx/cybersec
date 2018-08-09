@@ -4,7 +4,6 @@
         $text = json_encode(array( "showpassword"=>"yes", "bgcolor"=>"#ffffff"));
         $key = "qw8J";
         $outText = '';
-
         // Iterate through each character
         for($i=0;$i<strlen($text);$i++)
         {
