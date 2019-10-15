@@ -1,0 +1,55 @@
+# security related books
+
+- A Bug Hunter's Diary: A Guided Tour Through the Wilds of Software Security
+- Applied Cryptography: Protocols, Algorithms and Source Code in C, 20th Anniversary Edition
+- The Art of Deception: Controlling the Human Element of Security
+- The Art of Memory Forensics: Detecting Malware and Threats in Windows, Linux, and Mac Memory
+- Attacking Network Protocols: A Hacker's Guide to Capture, Analysis, and Exploitation
+- The Book of PoC || GTFO
+- CEH v9: Certified Ethical Hacker Version 9 Study Guide
+- CompTIA Security+ Certification Guide
+- Cryptography Engineering: Design Principles and Practical Applications
+- Cryptography with Python
+- Cybersecurity - Attack and Defense Strategies
+- Cybersecurity Attacks (Red Team Activity)
+- Designing BSD Rootkits: An Introduction to Kernel Hacking
+- Digital Forensics and Incident Response
+- Ethical Hacking for Beginners
+- Hacking the Xbox: An Introduction to Reverse Engineering
+- Hands-On Cybersecurity for Architects
+- Hands-On Cybersecurity with Blockchain
+- Hands-On Penetration Testing on Windows
+- The IDA Pro Book
+- Industrial Cybersecurity
+- Kali Linux - An Ethical Hacker's Cookbook
+- Learn Website Hacking / Penetration Testing From Scratch
+- Learning Malware Analysis
+- Linux Basics for Hackers: Getting Started with Networking, Scripting, and Security in Kali
+- Malware Analyst's Cookbook and DVD: Tools and Techniques for Fighting Malicious Code
+- Malware Analyst's Cookbook DVD
+- Malware Data Science: Attack Detection and Attribution
+- Mastering Kali Linux
+- Mastering Linux Security and Hardening
+- Mastering pfSense
+- Metasploit for Beginners
+- Metasploit Penetration Testing Cookbook
+- Network Analysis Using Wireshark 2 Cookbook
+- Nmap: Network Exploration and Security Auditing Cookbook
+- Pentesting Azure Applications: The Definitive Guide to Testing and Securing Deployments
+- PoC||GTFO, Vol. 2
+- Practical Binary Analysis: Build Your Own Linux Tools for Binary Instrumentation, Analysis, and Disassembly
+- Practical Cyber Intelligence
+- Practical Mobile Forensics
+- Practical Packet Analysis
+- Practical Reverse Engineering: x86, x64, ARM, Windows Kernel, Reversing Tools, and Obfuscation
+- The Practice of Network Security Monitoring
+- Python For Offensive PenTest: A Complete Practical Course
+- Secrets and Lies: Digital Security in a Networked World, 15th Anniversary Edition
+- Security Engineering: A Guide to Building Dependable Distributed Systems, 2nd Edition
+- Serious Cryptography: A Practical Introduction to Modern Encryption
+- The Shellcoder's Handbook: Discovering and Exploiting Security Holes, 2nd Edition
+- Social Engineering: The Art of Human Hacking
+- Threat Modeling: Designing for Security
+- Unauthorised Access: Physical Penetration Testing For IT Security Teams
+- The Web Application Hacker's Handbook: Finding and Exploiting Security Flaws, 2nd Edition
+- Web Penetration Testing with Kali Linux
